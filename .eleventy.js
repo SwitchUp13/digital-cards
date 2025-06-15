@@ -5,9 +5,8 @@ module.exports = function(eleventyConfig) {
 
   return {
     dir: {
-      input: ".",        // adjust if using src/
-      includes: "_includes",
-      data: "_data",
+      input: ".",                 // 👈 Use current folder as source
+      includes: "_includes",     // or wherever your layout.njk lives
       output: "_site"
     }
   };
