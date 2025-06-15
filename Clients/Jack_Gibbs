@@ -1,0 +1,14 @@
+// clients/john.json
+{
+  "businessName": "John's Coffee",
+  "logo": "/images/john-coffee-logo.png",
+  "about": "Best coffee in town.",
+  "services": ["Espresso", "Cappuccino", "Pastries"],
+  "contact": {
+    "phone": "555-1234",
+    "social": {
+      "instagram": "johnscoffee"
+    }
+  },
+  "footer": "© 2025 John's Coffee"
+}
