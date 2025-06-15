@@ -3,7 +3,7 @@ layout: layout.njk
 title: Home
 ---
 
-<h1>Client List</h1>
+<h1>Clients</h1>
 <ul>
   {% for client in collections.clients %}
     <li>
