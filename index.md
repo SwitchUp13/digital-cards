@@ -31,4 +31,12 @@ title: Jack Gibbs
   </p>
 </form>
 <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+<ul>
+  {% for client in collections.clients %}
+    <li>
+      <a href="/clients/{{ client.fileSlug }}/">{{ client.data.businessName }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 
