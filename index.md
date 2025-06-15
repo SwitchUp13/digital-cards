@@ -30,3 +30,5 @@ title: Jack Gibbs
     <button type="submit">Send</button>
   </p>
 </form>
+<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field" action="/thank-you">
+
