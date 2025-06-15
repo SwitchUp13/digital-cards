@@ -9,4 +9,11 @@ layout: layout.njk
 
 <h1>{{ client.businessName }}</h1>
 <p>{{ client.about }}</p>
-<!-- Add more content here as needed -->
+
+<p>Contact: <a href="mailto:{{ client.contact.email }}">{{ client.contact.email }}</a></p>
+
+<p>LinkedIn: 
+  <a href="https://linkedin.com/in/{{ client.contact.linkedin }}" target="_blank">
+    {{ client.contact.linkedin }}
+  </a>
+</p>
