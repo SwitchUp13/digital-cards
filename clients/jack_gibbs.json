@@ -1,8 +1,8 @@
 {
   "businessName": "Jack Gibbs Consulting",
-  "about": "Helping businesses grow with smart tech solutions.",
-  "contact": {
-    "email": "jack@example.com",
-    "linkedin": "jackgibbs"
-  }
+  "about": "We provide expert consulting.",
+  "email": "jack@example.com",
+  "phone": "123-456-7890",
+  "website": "https://jackgibbs.com"
 }
+
