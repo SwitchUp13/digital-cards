@@ -1,0 +1,23 @@
+---
+layout: layout.njk
+---
+
+<h1>{{ client.businessName }}</h1>
+<p>{{ client.about }}</p>
+
+{% if client.services %}
+  <h2>Services</h2>
+  <ul>
+    {% for service in client.services %}
+      <li>{{ service }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+<p>Phone: {{ client.contact.phone }}</p>
+
+<p>Follow on social:
+  {% for network, handle in client.contact.social %}
+    <a href="https://{{ network }}.com/{{ handle }}" target="_blank">{{ network | capitalize }}</a>{% if not loop.last %}, {% endif %}
+  {% endfor %}
+</p>
