@@ -1,11 +1,8 @@
 {
   "businessName": "Jack Gibbs Consulting",
-  "logo": "/images/jack-logo.png",
   "about": "Helping businesses grow with smart tech solutions.",
   "contact": {
-    "phone": "555-5555",
-    "social": {
-      "linkedin": "jackgibbs"
-    }
+    "email": "jack@example.com",
+    "linkedin": "jackgibbs"
   }
 }
